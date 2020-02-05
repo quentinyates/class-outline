@@ -1,0 +1,46 @@
+public class Triangle
+{
+    private double base;
+    private double height;
+    
+    //constructor
+    public Triangle(double b, double h)
+    {
+        base = b;
+        height = h;
+    }
+    
+    //no arg constuctor
+    public Triangle()
+    {
+        base = 0.0;
+        height = 0.0;
+    }
+    
+    //setter
+    public void setBase(double tbase)
+    {
+        base = tbase;
+    }
+    
+    public void setHeight(double theight)
+    {
+        height = theight;
+    }
+    
+    //getter
+    public double getBase()
+    {
+        return base;
+    }
+    public double getHeight()
+    {
+        return height;
+    }
+    
+    //calculations
+    public double getArea()
+    {
+        return 1.5 * base * height;
+    }
+}
